@@ -1,0 +1,16 @@
+body {
+  background-color: gray;
+}
+
+.online {
+  color: greenyellow;
+}
+
+.offline {
+  color: red;
+}
+
+.hide-text {
+  opacity: 0;
+  display: none;
+}
