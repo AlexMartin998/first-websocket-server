@@ -79,19 +79,11 @@ app.listen();
 
 	- Broadcast - Ordenar nuestro codigo
 	  - Debemos refactorizar el codigo xq a medida que crece el proyecto necesitamos trabajar con mas eventos.
-		- El this.io se usa en casos muy concretos:
+		- El   this.io    se usa en casos muy concretos:
 		  - En una Peticion REST   SI q necesitariamos el  this.io
 		- Para emitir algo a todos los demas clientes menos al q lo envia:
 		  		socket.broadcast.emit('send-message-from-server', payload);
-		- 
-
 		
-	- 
-
-		
-	- 
-
-
-
- *
+	- Subir a Heroku
+	  - Nuevo proyecto. No olvidar el script antes de subir:  "start": "node app.js"
  */
